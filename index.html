@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnes Bacal - Grano de Oro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Recursos/nico.ico" alt="Imagen Izquierda" class="imagen-izquierda">
+        <h1>EL GRANO DE ORO </h1>
+        <img src="Recursos/nico.ico" alt="Imagen Derecha" class="imagen-derecha">
+        <p class="nuevo-elemento">CARNICERÍA</p>
+    </header>
+
+    <section class="familia res">
+        <h2 id="tituloRes">CARNE DE RES</h2>
+    </section>
+
+    <div id="Chuletas" class="submenu">
+        <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+            <p>Chuletas</p>
+        </div>
+        <!-- Lista de productos (inicialmente oculta) -->
+        <ul id="productosChuletas" class="lista-productos">
+            <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+        </ul>
+        
+    </div>
+    
+    <!-- Cortes Finos -->
+    <div id="CortesFinos" class="submenu">
+        <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+            <p>Cortes Finos</p>
+        </div>
+        <!-- Lista de productos (inicialmente oculta) -->
+        <ul id="productosCortesFinos" class="lista-productos">
+            <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+        </ul>
+    </div>
+    
+    <!-- Costillas -->
+    <div id="Costillas" class="submenu">
+        <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+            <p>Costillas</p>
+        </div>
+        <!-- Lista de productos (inicialmente oculta) -->
+        <ul id="productosCostillas" class="lista-productos">
+            <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+        </ul>
+    </div>
+
+    <!-- Pulpas -->
+<div id="Pulpas" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Pulpas</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPulpas" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Chamorro -->
+<div id="Chamorro" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Chamorro</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosChamorro" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Espinazo -->
+<div id="Espinazo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Espinazo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosEspinazo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Milanesas -->
+<div id="Milanesas" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Milanesas</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosMilanesas" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pata -->
+<div id="Pata" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Pata</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPata" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pecho -->
+<div id="Pecho" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Pecho</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPecho" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Suadero -->
+<div id="Suadero" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Suadero</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosSuadero" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Tripas -->
+<div id="Tripas" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Tripas</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosTripas" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Cabezas -->
+<div id="Cabezas" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Cabezas</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosCabezas" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Carne Molida -->
+<div id="CarneMolida" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Carne Molida</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosCarneMolida" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Carne Seca -->
+<div id="CarneSeca" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Carne Seca</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosCarneSeca" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Hueso -->
+<div id="Hueso" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Hueso</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosHueso" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Arrachera -->
+<div id="Arrachera" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Arrachera</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosArrachera" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Menudo -->
+<div id="Menudo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Menudo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosMenudo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Otros -->
+<div id="Otros" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Otros</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosOtros" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Diezmillo -->
+<div id="Diezmillo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Diezmillo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosDiezmillo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pescuezo -->
+<div id="Pescuezo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Pescuezo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPescuezo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Platanillo -->
+<div id="Platanillo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Platanillo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPlatanillo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+
+    <section class="familia cerdo">
+        <h2 id="tituloCerdo">CERDO</h2>
+    </section>
+
+<!-- Chuletas de Cerdo -->
+<div id="ChuletasCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Chuletas de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosChuletasCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Costillas de Cerdo -->
+<div id="CostillasCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Costillas de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosCostillasCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Chamorro de Cerdo -->
+<div id="ChamorroCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Chamorro de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosChamorroCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Buche de Cerdo -->
+<div id="BucheCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Buche de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosBucheCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Espinazo de Cerdo -->
+<div id="EspinazoCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Espinazo de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosEspinazoCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Manitas de Cerdo -->
+<div id="ManitasCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Manitas de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosManitasCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pecho de Cerdo -->
+<div id="PechoCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Pecho de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPechoCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pic Nic de Cerdo -->
+<div id="PicNicCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Pic Nic de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPicNicCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pierna de Cerdo -->
+<div id="PiernaCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Pierna de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPiernaCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Punta de Cerdo -->
+<div id="PuntaCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Punta de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPuntaCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Tocino de Cerdo -->
+<div id="TocinoCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Tocino de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosTocinoCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Tripas de Cerdo -->
+<div id="TripasCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Tripas de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosTripasCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Cabezas de Cerdo -->
+<div id="CabezasCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Cabezas de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosCabezasCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Chicharron Prensado de Cerdo -->
+<div id="ChicharronPrensadoCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Chicharron Prensado de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosChicharronPrensadoCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Cuero de Cerdo -->
+<div id="CueroCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Cuero de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosCueroCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Otros de Cerdo -->
+<div id="OtrosCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Otros de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosOtrosCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Lomo de Cerdo -->
+<div id="LomoCerdo" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Lomo de Cerdo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosLomoCerdo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+
+    <section class="familia pollo">
+        <h2 id="tituloPollo">POLLO</h2>
+    </section>
+
+<!-- Alitas -->
+<div id="Pollo" class="submenu">
+    <div class="rectangulo" data-productos="Alita de Pollo, Alitas de Pollo Naturales, Alitas de Pollo Picosas">
+        <p>Alitas</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPollo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pechugas -->
+<div id="PechugasPollo" class="submenu">
+    <div class="rectangulo" data-productos="Filete de Pechuga Empanizado Pollo, Pechuga Adobada Pollo, Pechuga de Pollo">
+        <p>Pechugas de Pollo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPechugasPollo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Milanesas -->
+<div id="MilanesasPollo" class="submenu">
+    <div class="rectangulo" data-productos="Milanesa de Pollo">
+        <p>Milanesas de Pollo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosMilanesasPollo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pierna Pollo -->
+<div id="PiernaPollo" class="submenu">
+    <div class="rectangulo" data-productos="Pierna Corta de Pollo, Pierna y Muslo de Pollo">
+        <p>Pierna de Pollo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPiernaPollo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Fajitas -->
+<div id="FajitasPollo" class="submenu">
+    <div class="rectangulo" data-productos="Fajitas de Pollo">
+        <p>Fajitas de Pollo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosFajitasPollo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Otros -->
+<div id="OtrosPollo" class="submenu">
+    <div class="rectangulo" data-productos="Chicken Nuggets Pollo, Hamburguesa de Pollo Empanizada, Otro Producto de Pollo">
+        <p>Otros de Pollo</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosOtrosPollo" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+
+    <section class="familia mariscos">
+        <h2 id="tituloMariscos">MARISCOS</h2>
+    </section>
+
+<!-- Camarón -->
+<div id="Camarón" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Camarón</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosCamarón" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Filetes -->
+<div id="Filetes" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Filetes</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosFiletes" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Almeja -->
+<div id="Almeja" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Almeja</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosAlmeja" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Atún -->
+<div id="Atun" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Atún</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosAtun" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Marlin -->
+<div id="Marlin" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Marlin</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosMarlin" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pulpos -->
+<div id="Pulpos" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Pulpos</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPulpos" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+    <section class="familia embutidos">
+        <h2 id="tituloEmbutidos">EMBUTIDOS</h2>
+    </section>
+
+    <!-- Jamones -->
+<div id="Embutidos" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Jamones</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosJamones" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Salchichas -->
+<div id="Salchichas" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Salchichas</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosSalchichas" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+<!-- Pepperoni -->
+<div id="Pepperoni" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Pepperoni</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPepperoni" class="lista-productos">
+        <!-- Los productos se agregarán aquí dinámicamente desde JavaScript -->
+    </ul>
+</div>
+
+
+    <section class="familia quesos">
+        <h2 id="tituloQuesos">QUESOS</h2>
+    </section>
+
+<!-- Chester -->
+<div id="Quesos" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Chester</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosChester" class="lista-productos">
+        <li>Chester</li>
+    </ul>
+</div>
+
+<!-- Chihuahua -->
+<div id="Chihuahua" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Chihuahua</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosChihuahua" class="lista-productos">
+        <li>Chihuahua</li>
+    </ul>
+</div>
+
+<!-- Cotija -->
+<div id="Cotija" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Cotija</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosCotija" class="lista-productos">
+        <li>Cotija</li>
+    </ul>
+</div>
+
+<!-- Cincho -->
+<div id="Cincho" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Cincho</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosCincho" class="lista-productos">
+        <li>Cincho</li>
+    </ul>
+</div>
+
+<!-- Fresco -->
+<div id="Fresco" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Fresco</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosFresco" class="lista-productos">
+        <li>Fresco</li>
+    </ul>
+</div> 
+
+<!-- Monterrey -->
+<div id="Monterrey" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Monterrey</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosMonterrey" class="lista-productos">
+        <li>Monterrey</li>
+    </ul>
+</div>
+
+<!-- Mozzarella -->
+<div id="Mozzarella" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Mozzarella</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosMozzarella" class="lista-productos">
+        <li>Mozzarella</li>
+    </ul>
+</div>
+
+<!-- Oaxaca -->
+<div id="Oaxaca" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Oaxaca</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosOaxaca" class="lista-productos">
+        <li>Oaxaca</li>
+    </ul>
+</div>
+
+<!-- Panela -->
+<div id="Panela" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Panela</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosPanela" class="lista-productos">
+        <li>Panela</li>
+    </ul>
+</div>
+
+<!-- Ranchero -->
+<div id="Ranchero" class="submenu">
+    <div class="rectangulo" data-productos="Producto 1, Producto 2, Producto 3">
+        <p>Ranchero</p>
+    </div>
+    <!-- Lista de productos (inicialmente oculta) -->
+    <ul id="productosRanchero" class="lista-productos">
+        <li>Ranchero</li>
+    </ul>
+</div>
+
+<!-- Sección Final -->
+<div class="footer">
+    <p>Síguenos en FB y visita nuestra pagina principal:</p>
+    <div class="social-buttons">
+        <!-- Reemplaza las URL de las imágenes con los iconos de tus redes sociales preferidas -->
+        <a href="https://www.facebook.com/Granodeorotijuana/?locale=es_LA" target="_blank"><img src="Recursos/FbLogo.png" alt="Facebook"></a>
+        <a href="https://www.granodeoro.com.mx/" target="_blank"><img src="Recursos/nico.ico" alt="Pagina Principal"></a>
+        <!-- Agrega más botones según sea necesario -->
+    </div>
+
+    <div class="subscribe-form">
+        <p>Suscribete para obtener Actualizaciones:</p>
+        <input type="email" placeholder="Tu correo electrónico">
+        <button>Suscribirse</button>
+    </div>
+
+    
+
+    <div class="map">
+        <p><a href="https://maps.app.goo.gl/TBEMYFAYzJNVVpHd6" target="_blank">Nuestra ubicación:</a></p>
+        <!-- Ajusta el tamaño según tus preferencias -->
+        <a href="https://maps.app.goo.gl/TBEMYFAYzJNVVpHd6" target="_blank"><img src="MapaGDO.png" alt="Ubicación en el mapa" style="width: 200px; height: auto;"></a>
+    </div>
+
+    <p>Contacto:</p>
+    <p>Correo Electrónico: lfrodriguez@granodeoro.com.mx</p>
+    <p>Teléfono: 664 622 76 00</p>
+
+    <p>&copy; 2023 Carnes Bacal. Todos los derechos reservados.</p>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
