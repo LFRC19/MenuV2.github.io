@@ -64,11 +64,11 @@ header:hover .nuevo-elemento {
 }
 
 .imagen-izquierda {
-    left: 20px;
+    left: 5px;
 }
 
 .imagen-derecha {
-    right: 20px;
+    right: 5px;
 }
 
 /* Añade estilos al pasar el ratón */
