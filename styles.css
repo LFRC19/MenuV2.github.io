@@ -425,7 +425,7 @@ h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    z-index: 999;
+    z-index: 5000;
     opacity: 0;
     transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     transform: translateY(20px);
